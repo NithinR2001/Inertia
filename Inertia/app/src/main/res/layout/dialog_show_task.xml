@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_custom"
+        android:drawableStart="@drawable/baseline_title_"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/green"
+        android:elevation="6dp"
+        android:hint="Title"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/green" />
+
+    <EditText
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_custom"
+        android:drawableStart="@drawable/baseline_task"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/green"
+        android:elevation="6dp"
+        android:hint="Description"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/green" />
+
+    <EditText
+        android:id="@+id/text_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_custom"
+        android:drawableStart="@drawable/baseline_date"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/green"
+        android:elevation="6dp"
+        android:hint="Date"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/green" />
+
+    <EditText
+        android:id="@+id/text_priority"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_custom"
+        android:drawableStart="@drawable/baseline_time"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/green"
+        android:elevation="6dp"
+        android:hint="Time"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/green"/>
+
+</LinearLayout>

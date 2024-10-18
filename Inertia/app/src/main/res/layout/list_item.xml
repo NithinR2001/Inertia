@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/check_event"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:onClick="onCheckBoxClicked"
+        app:buttonTint="@color/green"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_dis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discription"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="#808080" />
+
+    </LinearLayout>
+
+</LinearLayout>
